@@ -1,0 +1,21 @@
+{
+  "name": "video-player-app",
+  "version": "1.0.0",
+  "description": "a backend for video player app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "js",
+    "express",
+    "js",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": "Sachin Deswal",
+  "license": "ISC"
+}
