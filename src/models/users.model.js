@@ -9,30 +9,33 @@ const userSchema = new Schema(
             required: true,
             unique: true,
             lowercase: true,
+            trim: true,
             index: true,
         },
         fullName: {
             type: String,
             required: true,
             lowercase: true,
+            trim: true,
+            index: true
         },
         email: {
             type: String,
             required: true,
             lowercase: true,
             unique: true,
+            trim: true
         },
         password: {
             type: String,
             required: true,
         },
-        avatarImg: {
+        avatar: {
             type: String,
             required: true,
         },
-        coverImg: {
+        coverImage: {
             type: String,
-            require: true,
         },
         watchHistory: [
             {
@@ -42,7 +45,6 @@ const userSchema = new Schema(
         ],
         refreshToken: {
             type: String,
-            required: String
         }
     },
     {
